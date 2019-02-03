@@ -1,0 +1,4 @@
+Welcome to your tarot card reading. You can choose from a standard
+reading which displays 3 cards and provides you with a reading of the
+past, present, or future. You can also decide on a universal reading
+which displays 6 cards and reveals more in depth details!
