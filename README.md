@@ -1,0 +1,10 @@
+# python-game
+Python Tarot Card Reading game
+
+The Python Tarot Card Reading program was created to provide users with an entertaining way to receive a tarot reading. During my research I found that tarot reading can be performed in various ways using different card decks. For the Python Tarot Card Reading program I am using the Major Arcana card deck which consist of twenty two cards. Each Major Arcana card will have two interpretations, one if the card is upright and another if the card is reverse. With that in mind, this program will reference a deck of twenty two cards that has forty four interpretations.
+
+When a user runs the Python Tarot Card Reading program they will receive a prompt. They must decide between a standard reading and a universal reading. If a standard tarot reading is selected the user will be shown a tarot card reading based on three random Major Arcana cards. The first card displayed represents the past, the second represents the present, and the third card represents the future. The program will display the three cards, if the cards are upright or reverse, and a description for each card. If a user chooses to receive a universal tarot reading they will receive a reading based on six random Major Arcana cards. With six cards the tarot reading is more detailed.
+
+In order to run the program the random, pandas and unittest module must be imported. The main program ’main-tarotcard.py’ uses text and csv files. The main program also imports three classes OpeningMessage, PandasToList, UnitTest, and EndingMessage. When the program runs you will find some text output formatting with color and boldness. The text formatting was designed to work with PyCharm on a MacOS but should work is most environments.
+
+The program also handles exception handling on user input. Exception handling will catch if a user inputs a non-integer. The exception will print a message telling the user to enter a valid input. If an input is an integer but not one of the options an if clause will catch it. The user will see a message with instruction on providing a valid input. Run the program now to see how it works.
